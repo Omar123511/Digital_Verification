@@ -1,0 +1,62 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /\top#DUT 
+=== Design Unit: work.FIFO
+=================================================================================
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      18        18         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /\top#DUT  --
+NOTE: The modification timestamp for source file 'FIFO.sv' has been altered since compilation.
+
+  File FIFO.sv
+----------------Focused Condition View-------------------
+Line       31 Item    1  (fifoif.wr_en && (count < fifoif.FIFO_DEPTH))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       38 Item    1  (fifoif.full && fifoif.wr_en)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       49 Item    1  (fifoif.rd_en && (count != 0))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       60 Item    1  ((~fifoif.rd_en && fifoif.wr_en) && ~fifoif.full)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       62 Item    1  ((fifoif.rd_en && ~fifoif.wr_en) && ~fifoif.empty)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       67 Item    1  (count == fifoif.FIFO_DEPTH)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       68 Item    1  (count == 0)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       69 Item    1  (fifoif.empty && fifoif.rd_en)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       70 Item    1  (count == (fifoif.FIFO_DEPTH - 2))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       71 Item    1  (count == 1)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+
+
+Total Coverage By Instance (filtered view): 100.00%
+
