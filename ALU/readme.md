@@ -1,4 +1,4 @@
-The verification environment is run on VCS.<br>Run make to execute the testbench.
+The verification environment is run on VCS.<br>Run make to execute the testbench.<br>The design and verification requirements are in ALU.xlsx.
 
 ![env_arch](https://github.com/user-attachments/assets/0ac484bb-4730-46cf-aaf1-5aaac0e3f256)
 ![image](https://github.com/user-attachments/assets/92ef69b3-ff75-4a29-81b0-0bbfa5b2ee0c)
