@@ -1,0 +1,13 @@
+Recursive Coverage Report Summary Data by DU
+
+=================================================================================
+=== Design Unit: work.memory
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       7         7         0   100.00%
+
+
+Total Coverage By Design Unit (filtered view): 100.00%
+
