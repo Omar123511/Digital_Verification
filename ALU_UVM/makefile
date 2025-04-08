@@ -8,11 +8,11 @@ UVM_HOME = UVM_HOME
 #Flags
 #VCS_FLAGS = -full64 -sverilog -debug_access+all -ntb_opts uvm -timescale=1ns/1ps -cm line+cond+tgl+branch -f $(SRC_FILES) -top my_top +incdir+$$UVM_HOME/src
 
-VCS_FLAGS = -full64 -sverilog -debug_access+all -ntb_opts uvm -timescale=1ns/1ps -cm line+cond+tgl+branch -f $(SRC_FILES) -top my_top
+VCS_FLAGS = -full64 -sverilog -debug_access+all -ntb_opts uvm -timescale=1ns/1ps -cm line+cond+tgl+branch -f $(SRC_FILES) -top ALU_top
 
 DVE_FLAGS = -cm line+cond+tgl+branch
 
-TEST_NAME = my_test
+TEST_NAME = ALU_test
 VERBOSITY_LEVEL = MEDIUM
 
 UVM_SIM = +UVM_TESTNAME="$(TEST_NAME)" +UVM_VERBOSITY=UVM_$(VERBOSITY_LEVEL) +access+r
