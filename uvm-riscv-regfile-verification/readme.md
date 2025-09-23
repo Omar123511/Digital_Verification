@@ -30,6 +30,7 @@ The project contains two separate versions of the same testbench:
 ---
 
 ## 🔹 Repository Structure
+```
 ├── ral_version/ # UVM RAL-based verification
 │ ├── ral_model.sv
 │ ├── ...
@@ -41,7 +42,7 @@ The project contains two separate versions of the same testbench:
 ├── docs/ # Documentation (if any)
 ├── tests/ # Test scenarios
 └── README.md
-
+```
 
 ---
 
