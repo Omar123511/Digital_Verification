@@ -77,8 +77,5 @@ UVM Report Summary
   ** Simulation PASSED
 ---------------------------------------------------
 ```
-Requirements
 
-SystemVerilog with UVM 1.2 or later
-
-Simulator: Questa / VCS / Xcelium
+Simulator: VCS
