@@ -81,9 +81,18 @@ uvm-riscv-regfile-verification/
 ## 🔹 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/uvm-riscv-regfile-verification.git
+   git clone https://github.com/Omar123511/uvm-riscv-regfile-verification.git
    cd uvm-riscv-regfile-verification
-2. Compile and run simulations with your preferred simulator (Questa, VCS, Xcelium, etc.).
+2. For each environment:
+   - For the reference model version:
+     ```bash
+     cd RISCV
+   - For the reference model version:
+     ```bash
+     cd RISCV_RAL
+2. Compile and run simulations using VCS:
+   ```bash
+   make
 
 Example (Questa):
 vlog -f filelist.f
