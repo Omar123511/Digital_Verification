@@ -94,12 +94,7 @@ uvm-riscv-regfile-verification/
    ```bash
    make
 
-Example (Questa):
-vlog -f filelist.f
-vsim -c top_tb -do run.do
-
-
-Example Output
+Output
 ```
 Sample simulation log (truncated for clarity):
 UVM_INFO @ 0: reporter [RNTST] Running test test_regfile_basic...
@@ -118,5 +113,3 @@ UVM Report Summary
   ** Simulation PASSED
 ---------------------------------------------------
 ```
-
-Simulator: VCS
