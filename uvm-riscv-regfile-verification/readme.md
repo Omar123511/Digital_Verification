@@ -94,22 +94,6 @@ uvm-riscv-regfile-verification/
    ```bash
    make
 
-Output
-```
-Sample simulation log (truncated for clarity):
-UVM_INFO @ 0: reporter [RNTST] Running test test_regfile_basic...
-UVM_INFO @ 20: uvm_test_top.env.agent.monitor [MON] Read reg[5] = 0x000000AA
-UVM_INFO @ 30: uvm_test_top.env.agent.monitor [MON] Write reg[5] = 0x00000055
-UVM_INFO @ 40: uvm_test_top.scoreboard [SCBD] Match: reg[5] expected=0x55, actual=0x55
-UVM_INFO @ 100: reporter [UVM/REPORT/SUMMARY]
----------------------------------------------------
-UVM Report Summary
-  ** Report counts by severity
-  UVM_INFO    :   10
-  UVM_WARNING :    0
-  UVM_ERROR   :    0
-  UVM_FATAL   :    0
-  ** 0 errors, 0 fatals
-  ** Simulation PASSED
----------------------------------------------------
-```
+Log Files Path
+   - RISCV/simulation/log_files
+   - RISCV_RAL/simulation/log_files
