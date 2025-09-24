@@ -31,20 +31,52 @@ The project contains two separate versions of the same testbench:
 
 ## 🔹 Repository Structure
 ```
-├── ral_version/ # UVM RAL-based verification
-│ ├── ral_model.sv
-│ ├── ...
-│
-├── refmodel_version/ # Reference model-based verification
-│ ├── regfile_refmodel.sv
-│ ├── ...
-│
-├── docs/ # Documentation (if any)
-├── tests/ # Test scenarios
-└── README.md
+uvm-riscv-regfile-verification/
+├── RISCV/
+│ ├── Agents/
+│ │ ├── Configuration_Agent/
+│ │ ├── Data_Memory_Agent/
+│ │ ├── Debug_Agent/
+│ │ ├── EX_Agent/
+│ │ ├── Instruction_Agent/
+│ │ ├── Interrupt_Agent/
+│ │ └── RF_Agent/
+│ │
+│ ├── Assertions/
+│ ├── Coverage_Collectors/
+│ ├── Env/
+│ ├── Interfaces/
+│ ├── Sequences/
+│ │ └── Instruction_Sequences/
+│ │
+│ ├── Seq_Items/
+│ ├── Tests/
+│ └── Virtual_Seq/
+|
+├── RISCV_RAL
+│ ├── Agents/
+│ │ ├── Configuration_Agent/
+│ │ ├── Data_Memory_Agent/
+│ │ ├── Debug_Agent/
+│ │ ├── EX_Agent/
+│ │ ├── Instruction_Agent/
+│ │ ├── Interrupt_Agent/
+│ │ └── RF_Agent/
+│ │
+│ ├── Assertions/
+│ ├── Coverage_Collectors/
+│ ├── Env/
+│ ├── Interfaces/
+│ ├── RAL_Classes/
+│ │ └── RAL/
+│ │
+│ ├── Sequences/
+│ │ └── Instruction_Sequences/
+│ │
+│ ├── Seq_Items/
+│ ├── Tests/
+│ └── Virtual_Seq/
 ```
-
----
 
 ## 🔹 How to Run
 1. Clone the repository:
