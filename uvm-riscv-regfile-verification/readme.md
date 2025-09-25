@@ -94,6 +94,6 @@ uvm-riscv-regfile-verification/
    ```bash
    make
 
-Log Files Path
+## 🔹 Log Files Path
    - RISCV/simulation/log_files
    - RISCV_RAL/simulation/log_files
